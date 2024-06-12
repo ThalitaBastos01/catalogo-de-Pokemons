@@ -2,7 +2,7 @@ create table usuarios (
 	id serial primary key,
   nome text not null,
   email text unique not null,
-  senha integer not null
+  senha text not null
 )
 
 create table pokemons (

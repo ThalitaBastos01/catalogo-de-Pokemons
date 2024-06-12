@@ -1,5 +1,5 @@
 // conexão com o banco de dados
-const { Pool } = require('pg')
+const {Pool} = require('pg')
 
 const pool = new Pool({
 	host: 'localhost',
